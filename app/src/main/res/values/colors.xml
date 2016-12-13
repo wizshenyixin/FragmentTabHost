@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="tabs_color">#fefefe</color>
+    <color name="tabs_text_selector">#3db55c</color>
+    <color name="login_text_color">#313131</color>
+
+    <color name="mine_data_bk_color">#e8e8e8</color>
+    <color name="c_e8e8e8">#e8e8e8</color>
+    <color name="c_e2e2e2">#e2e2e2</color>
+    <color name="tabs_text_normal">#708b71</color>
+    <color name="tu_lie">#2b7e40</color>
+    <color name="main_color">#f3f4f5</color>
+    <color name="hint_text_color">#7f7f7f</color>
+    <color name="c_2b7e40">#2b7e40</color>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="c_ff3600">#ff3600</color>
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="c_303030">#303030</color>
+    <color name="c6c6c6">#c6c6c6</color>
+    <color name="tab_title_line">#f0c53a</color>
+    <color name="c_fdb604">#fdb604</color>
+    <color name="login_main_color">#f1f3f4</color>
+    <color name="c_c6c6c6">#c6c6c6</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_656565">#656565</color>
+    <color name="c_666532">#666532</color>
+    <color name="c_313131">#313131</color>
+    <color name="c_f1f4f3">#f1f4f3</color>
+    <color name="c_f4f4f4">#f4f4f4</color>
+    <color name="c_d5f5dd">#d5f5dd</color>
+    <color name="c_d8d8d8">#d8d8d8</color>
+    <color name="c_3db55c">#3db55c</color>
+    <color name="c_e5e5e5">#e5e5e5</color>
+    <color name="c_7a9982">#7a9982</color>
+    <color name="c_eeeeee">#eeeeee</color>
+    <color name="c_7f7f7f">#7f7f7f</color>
+
+    <color name="c_f9f9f9">#f9f9f9</color>
+    <color name="c_a0e1b1">#a0e1b1</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_94e4a8">#94e4a8</color>
+    <color name="c_ca9203">#ca9203</color>
+    <color name="c_b3000000">#b3000000</color>
+    <color name="c_f9615e">#f9615e</color>
+
+    <color name="c_b3bdc2">#b3bdc2</color>
+    <color name="c_b3eec2">#b3eec2</color>
+    <color name="c_fcfcfc">#fcfcfc</color>
+    <color name="w_7f7f7f">#7f7f7f</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="main_green">#FF3DB55C</color>
+
+    <color name="c_b5bcb7">#b5bcb7</color>
+
+    <color name="cattle_text_color">#b1b1b1</color>
+    <color name="transparent2">#7000</color><!-- 透明 -->
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="charts_title_color">#878787</color>
+    <color name="c_c74e4b">#c74e4b</color>
+    <color name="c_f8625e">#f8625e</color>
+    <color name="c_e6e343">#e6e343</color>
+    <!-- 滑动tab页面 -->
+    <color name="gray_bg">#d5f5dd</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="c_708b71">#708b71</color>
+    <color name="c_ecefef">#ecefef</color>
 </resources>

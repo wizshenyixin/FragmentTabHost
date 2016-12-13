@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--滑动导航栏-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineWidth" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+
+        <!--added attribute for center alignment-->
+        <attr name="pstsTabCenterAligned" format="boolean" />
+    </declare-styleable>
+
+
+    <!--更新进度条-->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="ropeMax" format="integer"/>
+        <attr name="ropeProgress" format="integer"/>
+        <attr name="ropePrimaryColor" format="color"/>
+        <attr name="ropeSecondaryColor" format="color"/>
+        <attr name="ropeSlack" format="dimension"/>
+        <attr name="ropeStrokeWidth" format="dimension"/>
+        <attr name="ropeDynamicLayout" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IndexAnalysisView">
+        <attr name="item_name" format="string"/>
+        <attr name="icon_id" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="DashLineView">
+        <attr name="line_color" format="color"/>
+    </declare-styleable>
+</resources>
