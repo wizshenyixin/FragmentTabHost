@@ -28,6 +28,8 @@ public class HomeActivity extends AppCompatActivity {
     private void initTab() {
         TabHost.TabSpec homeTabSpec = mTabHost.newTabSpec("首页").setIndicator(getImage(R.drawable.tab_home_btn, "首页"));
         TabHost.TabSpec remindTabSpec = mTabHost.newTabSpec("提醒").setIndicator(getImage(R.drawable.tab_remind_btn, "首页"));
+        TabHost.TabSpec workTabSpec = mTabHost.newTabSpec("工作").setIndicator(getImage(R.drawable.tab_work_btn, "工作"));
+        TabHost.TabSpec mineTabSpec = mTabHost.newTabSpec("我的").setIndicator(getImage(R.drawable.tab_mine_btn, "我的"));
         mTabHost.addTab(homeTabSpec, HomeFragment.class, null);
         mTabHost.addTab(remindTabSpec, RemindFragment.class, null);
         mTabHost.addTab(workTabSpec, WorkFragment.class, null);
