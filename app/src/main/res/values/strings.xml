@@ -1,3 +1,598 @@
 <resources>
-    <string name="app_name">FragmentTabHost</string>
+
+    <string name="app_name">阿牧云</string>
+    <string name="hint_text_check_cattle">请输入在群牛号</string>
+    <string name="hint_text_check_cattle1">请输入离群牛号</string>
+    <string name="get_check_code">获取验证码</string>
+    <string name="limts_pwd">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="title_login">登录</string>
+    <string name="register_l">赶紧注册</string>
+    <string name="title_register">注册</string>
+    <string name="register_agree">注册即代表同意阿牧网云</string>
+    <string name="get_reset_pass">找回密码</string>
+    <string name="new_user_regist">新用户注册</string>
+    <string name="login_phone_edittext_hint"><font size="16">已注册手机号</font></string>
+    <string name="login_pw_edittext_hint"><font size="16">密码</font></string>
+    <string name="regist_phone_edittext_hint"><font size="16">请输入手机号</font></string>
+    <string name="regist_check_edittext_hint"><font size="16">输入验证码</font></string>
+    <string name="regist_pw_edittext_hint"><font size="16">密码(6-12位数字字母)</font></string>
+    <string name="back_new_psw_hint"><font size="16">设置新密码</font></string>
+    <string name="user_agree">《用户协议》</string>
+    <string name="user_have_info">已有账户，去登录</string>
+    <string name="title_mine">我的设置</string>
+    <string name="title_statistics">统计</string>
+    <string name="def_user_name">昵称</string>
+    <string name="mine_cattle">我的牧场</string>
+    <string name="work_record">工作记录</string>
+    <string name="work_entry">工作录入</string>
+    <string name="mine_set">设置</string>
+    <string name="mine_details">个人资料</string>
+    <string name="data_number">手机号</string>
+    <string name="save_text">保存</string>
+    <string name="user_sure">确认</string>
+    <string name="message_remind">消息提醒</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="reccommend">推荐给好友</string>
+    <string name="about_amc">关于阿牧云</string>
+    <string name="cu">联系我们</string>
+    <string name="vp">版本升级</string>
+    <string name="user_exit_text">退出当前账户</string>
+    <string name="sound">声音</string>
+    <string name="shake">震动</string>
+    <string name="feed_content">反馈内容</string>
+    <string name="contact_type">您的联系方式(选填)</string>
+    <string name="feed_hint">我们将为您不断改进(请输入50字以内)</string>
+    <string name="you_contact">手机/邮箱/QQ/微信</string>
+    <string name="friend_title">推荐给好友</string>
+    <string name="qr_core">扫一扫二维码下载 “阿牧云” APP</string>
+    <string name="amnc_text">专业的养牛管理平台，打造智慧牧场。提升牧场工作效率，让牛群更健康，牧场更盈利、管理更轻松。</string>
+    <string name="use_content">《使用条款和隐私政策》</string>
+    <string name="use_content1">使用条款和隐私政策</string>
+    <string name="statement1">Copyright @2016 阿牧网云（北京）科技有限公司</string>
+    <string name="statement2">京ICP备15056297号</string>
+    <string name="soft_update_updatebtn">检测到新版本:</string>
+    <string name="soft_update">版本更新:</string>
+    <string name="soft_update_no">您所使用的已是最新版本</string>
+    <string name="soft_update_info">内容:</string>
+    <string name="soft_update_content1"></string>
+    <string name="call_me_text">拨打客服电话:</string>
+    <string name="user_exit">退出登录:</string>
+    <string name="user_exit_remind">确定要退出本账号吗?</string>
+    <string name="stop_user">停用当前员工账号?</string>
+    <string name="stop_user_info">停用后员工信息将不可用</string>
+    <string name="pasture_name">牧场名称</string>
+    <string name="pasture_name1">牧场名称:</string>
+    <string name="pasture_g">牧场规模:</string>
+    <string name="pasture_g_danwei">头</string>
+    <string name="pasture_user">场长</string>
+    <string name="pasture_user1">场长:</string>
+    <string name="pasture_need">需求:</string>
+    <string name="pasture_need1">使用计步器</string>
+    <string name="pasture_need2">使用牧场管理软件</string>
+    <string name="pasture_need3">申请贷款</string>
+    <string name="province">省份</string>
+    <string name="province1">省份:</string>
+    <string name="region">区域</string>
+    <string name="region1">区域:</string>
+    <string name="select_text">--请选择--</string>
+    <string name="address">地址</string>
+    <string name="address1">地址:</string>
+    <string name="camera_photo_cute">裁剪图片</string>
+    <string name="selector_photo">选择图片</string>
+    <string name="take_photo">拍照</string>
+    <string name="camera_photo_view">从相册中选择照片</string>
+    <string name="selector_photo_folder">选择图片文件夹</string>
+    <string name="today_remind">今日提醒</string>
+    <string name="heat">发情</string>
+    <string name="sperm">输精</string>
+    <string name="heat_title">周输精发情数据</string>
+    <string name="work_no_data_1">没有工作事项</string>
+    <string name="work_no_data_2">没有工作牧场</string>
+    <string name="remind_no_data_1">没有流产提醒</string>
+    <string name="remind_no_data_2">没有干奶提醒</string>
+    <string name="remind_no_data_3">没有产犊提醒</string>
+    <string name="remind_no_data_4">没有发情提醒</string>
+    <string name="remind_no_data_5_1">没有初检提醒</string>
+    <string name="remind_no_data_5_2">没有复检提醒</string>
+    <string name="remind_no_data_5_3">没有二次复检提醒</string>
+    <string name="remind_no_data_5_4">没有三次复检提醒</string>
+    <string name="remind_no_data_6">没有断奶提醒</string>
+    <string name="remind_no_data_7">没有转围产提醒</string>
+    <string name="remind_no_data_8">没有活动量异常提醒</string>
+    <string name="remind_no_data_9">没有产奶异常提醒</string>
+    <string name="remind_no_data_10_1">没有第一针同期异常提醒</string>
+    <string name="remind_no_data_10_2">没有第二针同期异常提醒</string>
+    <string name="remind_no_data_10_3">没有第三针同期异常提醒</string>
+    <string name="remind_no_data_10_4">没有输精同期异常提醒</string>
+    <string name="remind_no_data">没有提醒事项</string>
+    <string name="remind_no_connect">网络请求失败!</string>
+    <string name="remind_no_connect_01">请检查网络设置</string>
+    <string name="oestrus_input_title">发情录入</string>
+    <string name="drymilk_input_title">干奶录入</string>
+    <string name="tonegroup_input_title">调群录入</string>
+    <string name="outlier_input_title">离群录入</string>
+    <string name="outlier">离群</string>
+    <string name="abortion_input_title">流产录入</string>
+    <string name="weaning_input_title">断奶录入</string>
+    <string name="calving_title">产犊录入</string>
+    <string name="all_milk_title">总产录入</string>
+    <string name="morbidity_title">发病录入</string>
+    <string name="morbidity">发病</string>
+    <string name="cure_title">治愈录入</string>
+    <string name="cure">治愈</string>
+    <string name="treatment_title">治疗录入</string>
+    <string name="treatment">治疗</string>
+    <string name="add_disease_title">添加疾病</string>
+    <string name="add_medication_title">添加用药</string>
+    <string name="all_milk_loo_title">总产量查看</string>
+    <string name="all_milk_modify_title">总产量修改</string>
+    <string name="have_input_tone">已经调群</string>
+    <string name="tone">调群</string>
+    <string name="drymilk">干奶</string>
+    <string name="weaning">断奶</string>
+    <string name="tone_group">转围产</string>
+    <string name="remind_activity_error">活动量异常</string>
+    <string name="remind_amount_milk_error">产奶异常</string>
+    <string name="remind_synchronizationInsemination">同期</string>
+    <string name="remind_synchronizationInsemination1">同期:</string>
+    <string name="remind_synchronizationInsemination_date">同期日期:</string>
+    <string name="abortion">流产</string>
+    <string name="calving">产犊</string>
+    <string name="cattle_num">牛号:</string>
+    <string name="cattle_list">牛列表</string>
+    <string name="morbidity_list">发病列表</string>
+    <string name="add_morbidity">+添加疾病</string>
+    <string name="disease_list">疾病</string>
+    <string name="prescription_list">处方</string>
+    <string name="prescription_name">处方名称:</string>
+    <string name="add_medication">+添加用药</string>
+    <string name="medication_msg">用药信息</string>
+    <string name="cattle_milk">泌乳牛</string>
+    <string name="calving_date">产犊日期:</string>
+    <string name="calving_count">胎儿数量:</string>
+    <string name="calving_1">胎儿一:</string>
+    <string name="calving_2">胎儿二:</string>
+    <string name="calving_3">胎儿三:</string>
+    <string name="calving_4">胎儿四:</string>
+    <string name="calving_5">胎儿五:</string>
+    <string name="calving_1num">牛犊号:</string>
+    <string name="calving_status">胎儿状况:</string>
+    <string name="calving_whereabouts">去向:</string>
+    <string name="sex">性别:</string>
+    <string name="birth_weight1">出生体重:</string>
+    <string name="groups">组别（非必填）:</string>
+    <string name="groups1">组别:</string>
+    <string name="old_groups">旧组别:</string>
+    <string name="insemination">输精录入</string>
+    <string name="housing_group_title">新组别:</string>
+    <string name="new_group_title">新组别（非必填）:</string>
+    <string name="abortion_type">流产类型</string>
+    <string name="pregnancy_examination_title">妊检录入</string>
+    <string name="pregnancy_examination_result">妊检结果</string>
+    <string name="pregnancy_examination">妊检</string>
+    <string name="pregnancy_examination_1">妊检 +</string>
+    <string name="pregnancy_examination_2">妊检 -</string>
+    <string name="pregnancy_examination_3">初检</string>
+    <string name="pregnancy_examination_4">复检</string>
+    <string name="pregnancy_examination_5">二次复检</string>
+    <string name="pregnancy_examination_6">三次复检</string>
+    <string name="insemination_num">冻精号</string>
+    <string name="insemination_type">类型</string>
+    <string name="insemination_surplus">库存</string>
+    <string name="outlier_type">离群类型:</string>
+    <string name="outlier_type_01">离群类别:</string>
+    <string name="outlier_reason">离群原因:</string>
+    <string name="outlier_reason_01">具体原因:</string>
+    <string name="outlier_where">离群去向:</string>
+
+    <string name="select_chart">选择报表</string>
+    <string name="select_chart_tv">已选择报表(最多3个)</string>
+    <string name="select_chart_tv01">所有报表(点击可添加)</string>
+    <string name="statistics_chart">统计报表</string>
+
+    <string name="age">年龄:</string>
+    <string name="parity">胎次:</string>
+    <string name="postpartum_days">产后天数:</string>
+    <string name="reproductive_status">繁殖状态:</string>
+    <string name="days">天数:</string>
+    <string name="number_of_insemination">输精次数:</string>
+    <string name="end_date_of_heat">发情结束日期:</string>
+    <string name="discovery_shift">发现班次:</string>
+    <string name="selected_all">全选</string>
+    <string name="no_oestrus">不是发情</string>
+    <string name="no_insemination">不输精</string>
+    <string name="insemination_text">输精</string>
+
+    <string name="days_after_insemination">泌乳天数:</string>
+    <string name="days_after_insemination_01">输精后天数:</string>
+    <string name="pregnancy_days">怀孕天数:</string>
+    <string name="last_banci">连续偏差班次:</string>
+    <string name="artificial_insemination">最近输精:</string>
+    <string name="type_of_pregnancy">妊检类型:</string>
+    <string name="charts_title_text">牛群分类数量统计（单位:头）</string>
+
+    <string name="charts_registered_cattle_title_text">注册牛数量统计（单位:头）</string>
+    <string name="replacement_cattle">后备牛</string>
+    <string name="dry_cow">干奶牛</string>
+    <string name="bull">公牛</string>
+    <string name="cow_proportion">泌乳牛占比:</string>
+    <string name="proportion_of_bull">后备牛占比:</string>
+    <string name="heat_title_1">周输精发情数据（单位:次）</string>
+    <string name="pregnancy_ratio">怀孕比（单位:头）</string>
+    <string name="cow_number_line">牛奶产量曲线</string>
+    <string name="milk_company_ton">（单位：t）</string>
+    <string name="milk_company_kg">（单位：kg）</string>
+    <string name="not_pregnant_cow">未怀孕牛</string>
+    <string name="pregnant_cow">怀孕牛</string>
+
+    <string name="soft_updating">正在更新:</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="title_activity_photos">PhotosActivity</string>
+    <string name="lactation_days">泌乳天数:</string>
+    <string name="check_banci">出现偏差班次:</string>
+    <string name="banci_danchan">班次单产:</string>
+    <string name="find_banci">发现班次:</string>
+    <string name="ten_day_last_danchan">十天班次平均:</string>
+    <string name="suspected_abortion_time">疑似流产时间:</string>
+    <string name="history_record">历史记录:</string>
+    <string name="quickly_check_cow">快速查牛</string>
+    <string name="num_cow_milk">泌乳牛头数:</string>
+
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+
+
+    <string name="modify">修改</string>
+    <string name="delete">删除</string>
+    <string name="cattle">牛</string>
+    <string name="event_details">事件详情</string>
+    <string name="event_oes_look_title">发情事件查看</string>
+    <string name="event_inse_look_title">输精事件查看</string>
+    <string name="event_pre_look_title">妊检事件查看</string>
+    <string name="event_abortion_look_title">流产事件查看</string>
+    <string name="loading">正在加载...</string>
+    <string name="event_calving_look_title">产犊事件查看</string>
+    <string name="event_weaning_look_title">断奶事件查看</string>
+    <string name="ok">确定</string>
+    <string name="modify_weaning_look_title">断奶事件修改</string>
+    <string name="modify_oes_look_title">发情事件修改</string>
+    <string name="modify_dry_look_title">干奶事件修改</string>
+    <string name="event_morbidity_look_title">发病事件查看</string>
+    <string name="event_treatment_look_title">治疗事件查看</string>
+    <string name="event_cure_look_title">治愈事件查看</string>
+    <string name="event_dry_look_title">干奶事件查看</string>
+    <string name="event_tone_group_look_title">调群事件查看</string>
+    <string name="event_outlier_look_title">离群事件查看</string>
+    <string name="event_same_period_look_title">同期事件查看</string>
+    <string name="stop">停用</string>
+
+    <string name="modify_tone_group_look_title">调群事件修改</string>
+    <string name="modify_abortion_look_title">流产事件修改</string>
+    <string name="modify_morbidity_look_title">发病事件修改</string>
+    <string name="modify_cure_title">治愈事件修改</string>
+    <string name="modify_treatment_title">治疗事件修改</string>
+    <string name="modify_pre_look_title">妊检事件修改</string>
+    <string name="event_inse_modify_title">输精事件修改</string>
+    <string name="event_outlier_modify_title">离群事件修改</string>
+
+    <string name="time">时间:</string>
+    <string name="date">日期:</string>
+    <string name="morbidity_date">发病日期:</string>
+    <string name="treatment_date">治疗日期:</string>
+    <string name="cure_date">治愈日期:</string>
+    <string name="milk_all">总产量:</string>
+    <string name="milk_all_cow">泌乳牛头数:</string>
+
+    <string name="Submit">提交</string>
+    <string name="click_to_share">点击分享</string>
+    <string name="determine_abortion">确定流产</string>
+    <string name="no_abortion">不是流产</string>
+    <string name="no_abnormal">无异常</string>
+    <string name="already_processed">已处理</string>
+    <string name="incidence_entry">发病录入</string>
+    <string name="is_no_farm_content2">亲，您还没有创建牧场哦！</string>
+    <string name="go_create_farm">去创建牧场</string>
+    <string name="call_worker">客服热线：400-863-7797</string>
+    <string name="call_worker_s">联系客服</string>
+    <string name="no_farm">没有所属牧场</string>
+    <string name="no_remind">没有提醒事项!</string>
+    <string name="group_mo">默认牛组</string>
+
+    <string name="activity_quantity">24小时活动量（步）</string>
+    <string name="quantity">活动量</string>
+    <string name="chananiliang">产奶量（kg）</string>
+
+    <string name="refresh_now">点击刷新</string>
+
+    <string name="cowdetail_info">基本信息</string>
+    <string name="cowdetail_date">日期</string>
+    <string name="cowdetail_name">名称</string>
+    <string name="cowdetail_person">录入人</string>
+    <string name="cowdetail_cownum">牛号:</string>
+
+    <string name="front_surface">正面</string>
+    <string name="left_surface">左侧面</string>
+    <string name="right_surface">右侧面</string>
+    <string name="newborn">初生</string>
+
+    <string name="cattle_number">录入牛号</string>
+    <string name="milk_lu">录入奶量</string>
+    <string name="lu_date">录入时间</string>
+    <string name="save_next">保存并下一批</string>
+    <string name="banci">班次:</string>
+    <string name="banci1">班次</string>
+    <string name="pici">批次:</string>
+    <string name="pici1">批次</string>
+    <string name="cownum">牛号</string>
+    <string name="milk_w">奶位</string>
+    <string name="milk_w1">奶位:</string>
+    <string name="nailiang">奶量（kg）</string>
+    <string name="nailiang1">奶量:</string>
+    <string name="nailiang2">奶量</string>
+    <string name="danwei">（kg）</string>
+    <string name="cow_num_adding">正在添加</string>
+    <string name="cow_num_waiting_adding">待添加牛号</string>
+    <string name="waiting_success_pici">待完成批次</string>
+    <string name="channai_luru_shij">产奶录入事件</string>
+    <string name="milk_date">挤奶日期</string>
+    <string name="please_input_nailiang">请输入奶量</string>
+    <string name="milk_yield_modify_title">产奶录入修改</string>
+    <string name="tishi">提示:</string>
+    <string name="delete_tishi">删除提示:</string>
+    <string name="neirong_delete">确定删除该事件？</string>
+    <string name="batch_delete">确定删除该批次？</string>
+    <string name="neirong">取消将不保存当前录入牛号，确定要\n取消吗？</string>
+    <string name="neirong_nailiang">取消将不保存当前录入奶量，确定要\n取消吗？</string>
+    <string name="cow_num_error">本班次已录入</string>
+
+    <string name="new_cow">在群牛</string>
+    <string name="old_group_cow">离群牛</string>
+
+    <string name="success">分享成功</string>
+    <string name="cancel">分享取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <string name="registerd_cattle">注册牛</string>
+    <string name="registerd_cattle_no_success">未通过</string>
+    <string name="registerd_cattle_no_shenhe">审核中</string>
+    <string name="registerd_cattle_no_shenqing">未申请</string>
+    <string name="day_event_count_title">日事件数量统计（单位:次）</string>
+    <string name="today">今日</string>
+    <string name="yestoday">昨日</string>
+
+    <string name="create_farm">创建牧场</string>
+    <string name="farm_shenqing">牧场申请中</string>
+    <string name="commint_shenqign">提交申请</string>
+    <string name="success_farm">审核通过，正在为您创建牧场...</string>
+    <string name="no_success_farm">审核未通过</string>
+    <string name="commint_success_create_farm">提交成功，正在审核...</string>
+    <string name="morbidity_type">发病类型:</string>
+    <string name="disease_type">疾病类型:</string>
+    <string name="disease_name">疾病名称:</string>
+    <string name="disease">疾病</string>
+    <string name="medication_type">药品类型:</string>
+    <string name="medication_specifications">药品规格:</string>
+    <string name="medication_name">药品名称:</string>
+
+    <string name="use_quantity">使用数量:</string>
+    <string name="company">单位（非必填）:</string>
+    <string name="therapeutic_class">治疗类别:</string>
+    <string name="therapeutic_modality">治疗方式:</string>
+    <string name="input_medication_number">输入药品数量</string>
+    <string name="nicheng">昵称:</string>
+    <string name="add_staff">添加员工</string>
+    <string name="phone_number">手机号:</string>
+    <string name="phone_number_modify">手机号修改</string>
+    <string name="role">角色:</string>
+    <string name="role1">角色</string>
+    <string name="role_modify">角色修改</string>
+    <string name="start_use">启用</string>
+    <string name="stop_use">停用</string>
+    <string name="name">姓名</string>
+    <string name="name_modify">姓名修改</string>
+    <string name="more">更多</string>
+
+    <string name="create_farm_progress">创建牧场进程</string>
+    <string name="apply_farm_info">申请牧场信息</string>
+    <string name="detection_ratio_of_pregnancy_and_pregnancy">妊检-比例</string>
+    <string name="no_pregnant_cows">未怀孕牛只</string>
+    <string name="pregnant_cows">怀孕牛只</string>
+    <string name="number_of_pregnant_women">(妊检数量：头)</string>
+    <string name="year_month">（年.月）</string>
+    <string name="month_day">（月.日）</string>
+    <string name="ten_day">10天</string>
+    <string name="thirty_day">30天</string>
+    <string name="six_month">6个月</string>
+    <string name="twelve_month">12个月</string>
+    <string name="ten_day_da_biao">十天达标</string>
+    <string name="ten_day_ji_zhun">十天基准</string>
+    <string name="activity">活动量（步）</string>
+    <string name="pasture_index">牧场指标排行</string>
+    <string name="ranking">排名</string>
+    <string name="index_name">指标名称</string>
+    <string name="completion_value">完成值</string>
+    <string name="industry_reference_value">行业参考值</string>
+    <string name="target_value">目标值</string>
+    <string name="first_needle">第一针</string>
+    <string name="two_needle">第二针</string>
+    <string name="three_needle">第三针</string>
+
+    <string name="not_deal_with">不予处理</string>
+    <string name="injection_Gnrh1">注射Gnrh1</string>
+    <string name="injection_PG">注射PG</string>
+    <string name="injection_Gnrh2">注射Gnrh2</string>
+    <string name="the_timing_of_insemination">定时输精</string>
+    <string name="same_period_date">同期日期:</string>
+    <string name="same_period_type">同期类型:</string>
+    <string name="option">操作:</string>
+    <string name="drugs">药物:</string>
+    <string name="index_analysis">指标分析:</string>
+    <string name="start_date">起始日期:</string>
+    <string name="end_date">结束日期:</string>
+    <string name="index_count_total">预警指标数量统计</string>
+    <string name="bingdian">冰点</string>
+    <string name="danbai">蛋白</string>
+    <string name="zhifang">脂肪</string>
+    <string name="danbaibi">蛋白比</string>
+    <string name="tixibao">体细胞</string>
+    <string name="junluozongshu">菌落总数</string>
+    <string name="index_trend_chart">指标趋势图</string>
+    <string name="early_warning_value_limit">预警值上限</string>
+    <string name="lower_limit_of_early_warning_value">预警值下限</string>
+    <string name="year_month_day">（年.月.日）</string>
+    <string name="danwei_bd">冰点°C</string>
+    <string name="danwei_db">蛋白%</string>
+    <string name="danwei_zf">脂肪%</string>
+    <string name="danwei_dbb">蛋白比%</string>
+    <string name="danwei_txb">体细胞cfu/ml</string>
+    <string name="danwei_jlzs">菌落总数cfu/ml</string>
+    <string name="jiaonai_zhibiao">交奶指标</string>
+    <string name="zhibiao_fenxi">指标详情</string>
+    <string name="kehuhao">编号:</string>
+    <string name="guanhao">罐号:</string>
+    <string name="shishoudunshu">实收吨数:</string>
+    <string name="zhifang1">脂肪%:</string>
+    <string name="danbai1">蛋白%:</string>
+    <string name="bingdian1">冰点-°C:</string>
+    <string name="junluozongshu1">FC50菌落总数万cfu/ml:</string>
+    <string name="ganguan">感官:</string>
+    <string name="ruchangwendu">入场温度°C:</string>
+    <string name="bizhong">比重:</string>
+    <string name="didingsuandu">滴定酸度°T:</string>
+    <string name="quanzhiruguti">全脂乳固体:</string>
+    <string name="feizhiruguti">非脂乳固体:</string>
+    <string name="rutang">乳糖:</string>
+    <string name="sanjuqingan">三聚氰胺:</string>
+    <string name="jianxingwuzhi">碱性物质:</string>
+    <string name="shuangyangshui">双氧水:</string>
+    <string name="user_agreement_content">一、总则\n
+1.1 阿牧云的所有权和运营权归阿牧网云（北京 ）科技有限公司所有。\n
+1.2 用户在注册之前，应当仔细阅读本协议，并同意遵守本协议后才可成为注册用户。一旦注册成功，则用户与阿牧云之间自动形成协议关系，用户应当受本协议的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用 。\n
+1.3 本协议则可由阿牧云随时更新，用户应当及时关注并同意本平台不承担通知义务。本平台的通知、公告、声明或其它类似内容是本协议的一部分。
+\n \n
+二、服务内容\n
+2.1 阿牧云的具体内容由本平台根据实际情况提供。\n
+2.2 本平台仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机 、及其他与接入互联网或移动网有关的装置 )及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费 )均应由用户自行负担。
+\n \n
+三、用户帐号
+\n
+3.1 经本平台注册系统完成注册程序并通过身份认证的用户即成为正式用户，可以获得本平台规定用户所应享有的一切权限；未经认证仅享有本平台规定的部分会员权限。阿牧云有权对会员的权限设计进行变更。
+\n
+3.2 用户只能按照注册要求使用真实手机号注册。用户有义务保证密码和帐号的安全，用户利用该密码和帐号所进行的一切活动引起的任何损失或损害，由用户自行承担全部责任，本平台不承担任何责任。如用户发现帐号遭到未授权的使用或发生其他任何安全问题，应立即修改帐号密码并妥善保管，如有必要，请通知本平台。因黑客行为或用户的保管疏忽导致帐号非法使用，本平台不承担任何责任。
+\n \n
+四、使用规则
+\n
+4.1 遵守中华人民共和国相关法律法规，包括但不限于《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释(法释 [2004]1号 )》、《全国人大常委会关于维护互联网安全的决定》、《互联网电子公告服务管理规定》、《互联网新闻信息服务管理规定》、《互联网著作权行政保护办法》和《信息网络传播权保护条例》等有关计算机互联网规定和知识产权的法律和法规、实施办法。
+\n
+4.2 用户对其自行发表、上传或传送的内容负全部责任，所有用户不得在本平台任何页面发布、转载、传送含有下列内容之一的信息，否则本平台有权自行处理并不通知用户:
+\n
+(1)违反宪法确定的基本原则的；
+\n
+(2)危害国家安全，泄漏国家机密，颠覆国家政权，破坏国家统一的；
+\n
+(3)损害国家荣誉和利益的；
+\n
+(4)煽动民族仇恨、民族歧视，破坏民族团结的；
+\n
+(5)破坏国家宗教政策，宣扬邪教和封建迷信的；
+\n
+(6)散布谣言，扰乱社会秩序，破坏社会稳定的；
+\n
+(7)散布淫秽、色情、赌博、暴力、恐怖或者教唆犯罪的；
+\n
+(8)侮辱或者诽谤他人，侵害他人合法权益的；
+\n
+(9)煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；
+\n
+(10)以非法民间组织名义活动的；
+\n
+(11)含有法律、行政法规禁止的其他内容的。
+\n
+4.3 用户承诺对其发表或者上传于本平台的所有信息(即属于《中华人民共和国著作权法》规定的作品，包括但不限于文字、图片、音乐、电影、表演和录音录像制品和电脑程序等)均享有完整的知识产权，或者已经得到相关权利人的合法授权；如用户违反本条规定造成本平台被第三人索赔的，用户应全额补偿本平台一切费用(包括但不限于各种赔偿费、诉讼代理费及为此支出的其它合理费用)；
+\n
+4.4 当第三方认为用户发表或者上传于本平台的信息侵犯其权利，并根据《信息网络传播权保护条例》或者相关法律规定向本平台发送权利通知书时，用户同意本平台可以自行判断决定删除涉嫌侵权信息，除非用户提交书面证据材料排除侵权的可能性，本平台将不会自动恢复上述删除的信息；
+\n
+(1)不得为任何非法目的而使用网络服务系统；
+\n
+(2)遵守所有与网络服务有关的网络协议、规定和程序；
+\n
+(3)不得利用本平台进行任何可能对互联网的正常运转造成不利影响的行为；
+\n
+(4)不得利用本平台进行任何不利于本平台的行为。
+\n
+4.5 如用户在使用网络服务时违反上述任何规定，本平台有权要求用户改正或直接采取一切必要的措施(包括但不限于删除用户张贴的内容、暂停或终止用户使用网络服务的权利)以减轻用户不当行为而造成的影响。
+\n
+\n
+五、隐私保护
+\n
+5.1 本平台不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在本平台的非公开内容，但下列情况除外:
+\n
+(1)事先获得用户的明确授权；
+\n
+(2)根据有关的法律法规要求；
+\n
+(3)按照相关政府主管部门的要求；
+\n
+(4)为维护社会公众的利益。
+\n
+5.2 本平台可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与本平台同等的保护用户隐私的责任，则本平台有权将用户的注册资料等提供给该第三方。
+\n
+5.3 在不透露单个用户隐私资料的前提下，本平台有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。
+\n
+\n
+六、版权声明
+\n
+6.1 本平台的文字、图片、音频、视频等版权均归阿牧网云（北京）科技有限公司享有或与作者共同享有，未经本平台许可，不得任意转载。
+\n
+6.2 本平台特有的标识、版面设计、编排方式等版权均属阿牧网云（北京）科技有限公司享有，未经本平台许可，不得任意复制或转载。
+\n
+6.3 使用本平台的任何内容均应注明“来源于阿牧云”及署上作者姓名，按法律规定需要支付稿酬的，应当通知本平台及作者及支付稿酬，并独立承担一切法律责任。
+\n
+6.4 本平台享有所有作品用于其它用途的优先权，包括但不限于网站、电子杂志、平面出版等，但在使用前会通知作者，并按同行业的标准支付稿酬。
+\n
+6.5 本平台所有内容仅代表作者自己的立场和观点，与本平台无关，由作者本人承担一切法律责任。
+\n
+6.6 恶意转载本平台内容的，本平台保留将其诉诸法律的权利。
+
+\n \n
+七、责任声明
+\n
+7.1 用户明确同意其使用阿牧云网络服务所存在的风险及一切后果将完全由用户本人承担，阿牧网云对此不承担任何责任。
+\n
+7.2 本平台无法保证网络服务一定能满足用户的要求，也不保证网络服务的及时性、安全性、准确性。
+\n
+7.3 本平台不保证为方便用户而设置的外部链接的准确性和完整性，同时，对于该等外部链接指向的不由本平台实际控制的任何网页上的内容，本平台不承担任何责任。
+\n
+7.4 对于因不可抗力或本平台不能控制的原因造成的网络服务中断或其它缺陷，本平台不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。
+\n
+7.5 对于站向用户提供的下列产品或者服务的质量缺陷本身及其引发的任何损失，本平台无需承担任何责任:
+\n
+(1)本平台向用户免费提供的各项网络服务；
+\n
+(2)本平台向用户赠送的任何产品或者服务。
+\n
+7.6 本平台有权于任何时间暂时或永久修改或终止本服务(或其任何部分)，而无论其通知与否，本平台对用户和任何第三人均无需承担任何责任。
+
+\n \n
+八、附则
+\n
+8.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。
+\n
+8.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。
+\n
+8.3 本协议解释权及修订权归阿牧网云（北京）科技有限公司所有。
+\n \n \n \n \n \n
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>
