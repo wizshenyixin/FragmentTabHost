@@ -28,7 +28,6 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Log.e("aaa", "onCreateView");
         mMainView = inflater.inflate(R.layout.fragment_home, container, false);
         initFirstViewPager();
         return mMainView;
@@ -104,12 +103,10 @@ public class HomeFragment extends Fragment {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.e("aaa", "onSaveInstanceState");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.e("aaa", "OnResume");
     }
 }
