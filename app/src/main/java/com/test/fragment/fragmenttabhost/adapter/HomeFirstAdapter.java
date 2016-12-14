@@ -27,6 +27,7 @@ public class HomeFirstAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
+        return view == object;
     }
 
     @Override
@@ -41,5 +42,6 @@ public class HomeFirstAdapter extends PagerAdapter {
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
+        container.removeView(container.findViewWithTag(position));
     }
 }
